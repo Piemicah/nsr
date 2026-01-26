@@ -1,12 +1,10 @@
-import React from "react";
-
 const Hero = () => {
   return (
-    <section className="text-center py-16 bg-gray-50">
-      <h1 className="text-3xl md:text-5xl font-bold mb-4">
+    <section className="py-16 text-center bg-gray-50">
+      <h1 className="mb-4 text-3xl font-bold md:text-5xl">
         Neuroscience Society of Rwanda
       </h1>
-      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+      <p className="max-w-2xl mx-auto text-lg text-gray-600">
         Building the foundation for neuroscience education, research, and
         collaboration in Rwanda.
       </p>
