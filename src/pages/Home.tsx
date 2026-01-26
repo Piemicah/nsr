@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 const Home = () => (
-  <div className="space-y-12">
+  <div className="space-y-12 ">
     <Hero />
     <section className="max-w-4xl mx-auto">
       <h2 className="mb-3 text-2xl font-semibold">Who We Are</h2>
