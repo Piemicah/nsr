@@ -1,15 +1,27 @@
-const Hero = () => {
-  return (
-    <section className="py-16 text-center bg-gray-50">
+import heroImage from "../assets/images/hero.jpg";
+const Hero = () => (
+  <section
+    className="relative py-20 text-center text-white"
+    style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
+    {/* Overlay */}
+    <div className="absolute inset-0 bg-black/60"></div>
+
+    {/* Content */}
+    <div className="relative max-w-3xl px-4 mx-auto">
       <h1 className="mb-4 text-3xl font-bold md:text-5xl">
         Neuroscience Society of Rwanda
       </h1>
-      <p className="max-w-2xl mx-auto text-lg text-gray-600">
+      <p className="text-lg md:text-xl">
         Building the foundation for neuroscience education, research, and
-        collaboration in Rwanda.
+        collaboration in Rwanda
       </p>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default Hero;
