@@ -25,7 +25,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-white transition"
             aria-label="Follow NSR on Twitter"
           >
-            <img src={twitter} className="size-[24px]" />
+            <img src={twitter} alt="twitter" className="size-[24px]" />
           </a>
 
           {/* Instagram */}
@@ -36,7 +36,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-white transition"
             aria-label="Follow NSR on Instagram"
           >
-            <img src={instagram} />
+            <img src={instagram} alt="instagram" />
           </a>
         </div>
 

@@ -8,10 +8,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_bf9vrvd",
-        "template_i933303",
+        "service_z0qpwhk",
+        "template_6tuaica",
         form.current,
-        "-rBRte5_kjLnvxObb",
+        "YuwkfCAl-SJUSeyVC",
       )
       .then(
         () => {
@@ -75,7 +75,7 @@ const Contact = () => {
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded hover:opacity-90 transition"
           >
-            <img src={twitter} className="size-[20px]" />
+            <img src={twitter} alt="twitter" className="size-[20px]" />
             (Twitter)
           </a>
 
@@ -86,7 +86,7 @@ const Contact = () => {
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-pink-600 text-white px-4 py-2 rounded hover:opacity-90 transition"
           >
-            <img src={instagram} className="size-[20px]" />
+            <img src={instagram} alt="instagram" className="size-[20px]" />
             Instagram
           </a>
         </div>
