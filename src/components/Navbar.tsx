@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-primary text-white px-4 py-3">
-      <div className="flex justify-between items-center">
-        <h1 className="font-bold text-lg">NSR</h1>
+    <nav className="px-4 py-3 text-white bg-primary">
+      <div className="flex items-center justify-between">
+        <h1 className="text-lg font-bold">NSR</h1>
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden space-x-6 md:flex">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -49,7 +50,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {open && (
-        <ul className="md:hidden mt-4 space-y-3">
+        <ul className="mt-4 space-y-3 md:hidden">
           <li>
             <Link onClick={() => setOpen(false)} to="/">
               Home
