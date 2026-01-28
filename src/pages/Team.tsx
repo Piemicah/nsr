@@ -31,7 +31,7 @@ const Team = () => {
         <li className="p-4 rounded shadow-sm bg-gray-50">
           <strong>Advisors</strong>
           <br />
-          <ol className="pl-4">
+          <ol>
             <li>
               ⁠Dr. Victor Archibong- Advisor & coordinator of the Neuroscience
               society registration
