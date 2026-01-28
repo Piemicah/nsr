@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import twitter from "../assets/images/twitter.png";
+import instagram from "../assets/images/instagram.svg";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -57,6 +59,38 @@ const Contact = () => {
           Send Message
         </button>
       </form>
+
+      <div className="bg-gray-50 p-6 rounded space-y-3">
+        <h2 className="text-xl font-semibold">Follow Us</h2>
+        <p className="text-gray-700">
+          Stay connected with NSR for announcements, events, and neuroscience
+          updates.
+        </p>
+
+        <div className="flex gap-4 flex-wrap">
+          {/* X (Twitter) */}
+          <a
+            href="https://x.com/nsr_rwanda"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded hover:opacity-90 transition"
+          >
+            <img src={twitter} className="size-[20px]" />
+            (Twitter)
+          </a>
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/nsr_rwanda"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 bg-pink-600 text-white px-4 py-2 rounded hover:opacity-90 transition"
+          >
+            <img src={instagram} className="size-[20px]" />
+            Instagram
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

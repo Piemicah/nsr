@@ -1,5 +1,3 @@
-import React from "react";
-
 const Team = () => {
   return (
     <div className="max-w-4xl py-10 mx-auto space-y-8">
@@ -13,22 +11,34 @@ const Team = () => {
         <li className="p-4 rounded shadow-sm bg-gray-50">
           <strong>President</strong>
           <br />
-          Name Here
+          Mr. Paul Ndahimana
         </li>
         <li className="p-4 rounded shadow-sm bg-gray-50">
           <strong>Vice President</strong>
           <br />
-          Name Here
+          Dr. Onaadepo Olufunke
         </li>
         <li className="p-4 rounded shadow-sm bg-gray-50">
-          <strong>Secretary</strong>
+          <strong>General Secretary</strong>
           <br />
-          Name Here
+          Mrs. Owoinsike Victor
         </li>
         <li className="p-4 rounded shadow-sm bg-gray-50">
           <strong>Treasurer</strong>
           <br />
-          Name Here
+          Mr. Habumuremyi Schadrack
+        </li>
+        <li className="p-4 rounded shadow-sm bg-gray-50">
+          <strong>Advisors</strong>
+          <br />
+          <ol>
+            <li>
+              ⁠Dr. Victor Archibong- Advisor & coordinator of the Neuroscience
+              society registration
+            </li>
+            <li>⁠Dr. Samson Olorunnado-Advisor in Charge of Welfare</li>
+            <li>Dr. Abdullahi Mohammed- Advisor</li>
+          </ol>
         </li>
       </ul>
     </div>
