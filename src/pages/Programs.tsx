@@ -1,5 +1,3 @@
-import React from "react";
-
 const Programs = () => {
   return (
     <div className="max-w-5xl py-10 mx-auto space-y-10">
@@ -15,8 +13,7 @@ const Programs = () => {
         <div className="p-6 rounded-lg shadow-sm bg-gray-50">
           <h2 className="mb-2 text-lg font-semibold">Research Development</h2>
           <p className="text-gray-700">
-            Support for local research through mentorship and initiatives such
-            as IBRO Seeding Neuroscience Grants.
+            Support for local research, grant writing and mentorship etc.
           </p>
         </div>
         <div className="p-6 rounded-lg shadow-sm bg-gray-50">
